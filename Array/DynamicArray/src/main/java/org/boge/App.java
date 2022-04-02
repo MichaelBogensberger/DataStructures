@@ -12,19 +12,23 @@ public class App
         DynamicArray<String> dArray = new DynamicArray(2);
 
 
-        dArray.add("text");     //0
-        dArray.add("more");     //1
-        dArray.add("lorem");    //2        x
-        dArray.add("ipsum");    //3        verschieben
-        dArray.add("hallo");    //4        verschieben
-        dArray.add("welt");     //5        verschieben
+        dArray.add("first");    //0
+        dArray.add("sec");      //1
+        dArray.add("third");    //2        x
+        dArray.add("fourth");   //3        verschieben
+        dArray.add("fifth");    //4        verschieben
+        dArray.add("sixth");    //5        verschieben
 
-        dArray.remove(2);
+        dArray.delete(2);
+        dArray.insert(4, "INSERT");
 
+        System.out.println(dArray.toString());
 
+        /*
         for (int i = 0; i < dArray.size(); i++) {
             System.out.println(dArray.get(i));
         }
+        */
 
 
 
