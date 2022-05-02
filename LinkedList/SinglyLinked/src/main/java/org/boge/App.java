@@ -10,10 +10,18 @@ public class App
     {
 
         SinglyLinkedList<String> list = new SinglyLinkedList<>();
-        list.add("1");
-        list.add("2");
-        list.add("3");
+        list.add("D");
+        list.add("C");
+        list.add("B");
+        list.add("A");
 
-        System.out.println( "Hello World!" );
+
+
+        list.add(1,"NEW");
+
+        list.printAll();
+
+        System.out.println( "Size: " +list.size()  );
+
     }
 }
