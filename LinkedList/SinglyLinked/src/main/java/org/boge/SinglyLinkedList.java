@@ -41,10 +41,72 @@ public class SinglyLinkedList<T> {
 
     }
 
+    public void append(T element) {
+
+        if(isEmpty()) {
+            head = new Node<T>(element, null);
+            size++;
+        } else {
+
+            Node temp = head;
+            for (int i = size-1; i >= 0; i--) {
+                if (i == 0) {
+                    Node newNode = new Node(element, null);
+                    temp.next = newNode;
+                    size++;
+                }
+
+                temp = temp.next;
+            }
+
+        }
+
+    }
+
+    public void delete(int index) {
+        if(isEmpty()) {
+            throw new IllegalArgumentException("Die Liste ist leer");
+        } else {
+
+            if (index == size-1) {
+                head = head.next;
+                size--;
+            } else {
+
+                Node temp = head;
+                for (int i = size-1; i >= index+1; i--) {
+                    //System.out.println(i);
+                    if(i == index+1) {
+                        //System.out.println("here at: " + i);
+                        //System.out.println(temp.data);
+                        //System.out.println(temp.next.data);
+
+                        if(temp.next.next == null) {
+                            temp.next = null;
+                        } else {
+                            temp.next = temp.next.next;
+                        }
+
+                        size--;
+
+                    }
+
+                    temp = temp.next;
+                }
+
+            }
+
+        }
+
+
+        }
+
+
     public void add (int index, T element) {
 
         if(isEmpty()) {
             head = new Node<T>(element, null);
+            size++;
         } else {
 
 
@@ -64,37 +126,6 @@ public class SinglyLinkedList<T> {
 
                 temp = temp.next;
             }
-
-
-
-
-
-
-
-
-        /*
-            Node temp = head;
-
-            for (int i=0; i < size-1; i++) {
-
-                if(i == index-1) {
-                    System.out.println(temp.data);
-
-                    Node newNode = new Node(element, temp.next);
-
-                    temp.next = newNode;
-                    size++;
-                }
-
-
-                temp = temp.next;
-
-
-                //System.out.println(i);
-
-            }
-        */
-
 
 
 

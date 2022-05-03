@@ -10,14 +10,20 @@ public class App
     {
 
         SinglyLinkedList<String> list = new SinglyLinkedList<>();
-        list.add("D");
-        list.add("C");
-        list.add("B");
-        list.add("A");
+
+        list.append("A");
+        list.append("B");
+        list.append("C");
+        list.append("D");
+
+        list.printAll();
 
 
 
-        list.add(1,"NEW");
+        //list.append("appended");
+        //list.add(3,"NEW");
+
+        list.delete(3);
 
         list.printAll();
 
