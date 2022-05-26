@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2cb5132-4765-4b07-9f38-60576839587d" name="Changes" comment="" />
+    <list default="true" id="0eef8a74-44c1-4e13-ac08-82fa083b5bd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/tmp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/src/main/java/org/boge/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/src/main/java/org/boge/DynamicArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/src/main/java/org/boge/DynamicArrayOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/src/test/java/org/boge/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/target/classes/org/boge/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/target/classes/org/boge/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/target/classes/org/boge/DynamicArrayOld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/DynamicArray/target/test-classes/org/boge/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/src/main/java/org/boge/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/src/main/java/org/boge/SinglyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/src/test/java/org/boge/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/target/classes/org/boge/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/target/classes/org/boge/SinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/target/classes/org/boge/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SinglyLinked/target/test-classes/org/boge/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +50,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="281Fv57QFP28MxN9iGtmp1lMmxZ" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29iHMnbL0tclkAGvPoPIcBssnCV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,22 +61,54 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList/SinglyLinked" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_list.doubly_linked.App" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_list.doubly_linked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2cb5132-4765-4b07-9f38-60576839587d" name="Changes" comment="" />
-      <created>1650376412591</created>
+      <changelist id="0eef8a74-44c1-4e13-ac08-82fa083b5bd3" name="Changes" comment="" />
+      <created>1653588946758</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650376412591</updated>
-      <workItem from="1650376414621" duration="32000" />
+      <updated>1653588946758</updated>
+      <workItem from="1653588952025" duration="146000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
